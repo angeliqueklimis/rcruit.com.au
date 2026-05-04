@@ -1272,6 +1272,16 @@ a.footer-contact-item:hover { color: var(--white); }
 .form-light .submit-btn { background: var(--black); color: var(--white); }
 .form-light .submit-btn:hover { background: var(--charcoal); }
 
+.contact-feedback {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 32px 0;
+}
+.contact-feedback--success { color: var(--charcoal); }
+.contact-feedback--error { color: #c0392b; }
+.contact-feedback a { color: inherit; text-decoration: underline; }
+
 /* ─── 24. CONTACT PAGE ─── */
 .contact-section {
   padding: var(--section-v) 0;
